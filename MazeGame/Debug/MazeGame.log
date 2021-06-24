@@ -1,0 +1,6 @@
+﻿  DfsPathFinder.cpp
+  main.cpp
+C:\Users\hwanyongkim\source\repos\MazeGame\MazeGame\Cursor.h(13,23): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\hwanyongkim\source\repos\MazeGame\MazeGame\Cursor.h(13,26): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  코드를 생성하고 있습니다...
+  MazeGame.vcxproj -> C:\Users\hwanyongkim\source\repos\MazeGame\Debug\MazeGame.exe

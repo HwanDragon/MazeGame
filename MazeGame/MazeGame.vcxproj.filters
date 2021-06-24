@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Maze">
+      <UniqueIdentifier>{66c6d6be-cbee-4738-b8d7-c868aef094bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Maze\Game">
+      <UniqueIdentifier>{dee93064-5e1e-465d-bcb4-dc0becbe2578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Maze\Map">
+      <UniqueIdentifier>{fcc6b7e3-927f-4d89-b4fc-4780bb7ae5be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Maze\PathFind">
+      <UniqueIdentifier>{8bc4cbab-6b5f-4e14-b2b3-876d958d96ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Maze">
+      <UniqueIdentifier>{87975069-e131-40d0-a9fe-1ae2d4eef9ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Maze\Game">
+      <UniqueIdentifier>{4a6e4de2-a513-4a7b-a6ef-5a27f4962833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Maze\Map">
+      <UniqueIdentifier>{0dfba3c3-8506-4160-a73e-6846ca6560b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Maze\PathFind">
+      <UniqueIdentifier>{f217145c-cb23-4cbf-bc5b-129ecf062567}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constant.h">
+      <Filter>헤더 파일\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>헤더 파일\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>헤더 파일\Maze\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeMap.h">
+      <Filter>헤더 파일\Maze\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapPrinter.h">
+      <Filter>헤더 파일\Maze\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>헤더 파일\Maze\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>헤더 파일\Maze\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeGame.h">
+      <Filter>헤더 파일\Maze\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="DfsPathFinder.h">
+      <Filter>헤더 파일\Maze\PathFind</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeGame.cpp">
+      <Filter>소스 파일\Maze\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MapPrinter.cpp">
+      <Filter>소스 파일\Maze\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeMap.cpp">
+      <Filter>소스 파일\Maze\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="DfsPathFinder.cpp">
+      <Filter>소스 파일\Maze\PathFind</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
